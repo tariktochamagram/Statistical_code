@@ -61,7 +61,7 @@ library(tidyverse)
 as_tibble(mydat)
 
 # Import/export
-mydata <- read_csv("data_comma.txt", skip = 3, col_names = TRUE)
+mydata <- read_csv("D:/R_archive_24/day 2/Data/data_comma.txt", skip = 3, col_names = TRUE)
 mydata
 
 mydata2 <- read_tsv("Data/data_space.txt", skip = 3, col_names = TRUE)
